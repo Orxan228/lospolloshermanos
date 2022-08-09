@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Esas Hisse -->
+    <section id="esas">
+        <!-- Nav hisse -->
+        <div class="nav">
+            <div class="nav__inner">
+                <div class="nav__brand">
+                    <a href="#esas">Los Pollos Hermanos</a>
+                </div>
+                <div class="nav__links">
+                    <li class="nav__buttons">
+                        <a href="#esas">Home</a>
+                        <a href="#menu">Prices</a>
+                        <a href="#locations">Locations</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <!-- Nav hisse sonu-->
+        <div class="esas container">
+            <div>
+                <h1>Hello,<span></span></h1>
+                <h1>My name is Gustavo<span></span></h1>
+                <h1>but you can call me Gus<span></span></h1>
+                <a href="#" type="button" class="cta">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- Esas Hissenin sonu -->
+    <!-- Menu section -->
+    <section id="menu">
+        <div class="menu container">
+            <div class="menu-top">
+                <h1 class="menu-title">Men<span>u</span></h1>
+                <p>Each and evey day we serve our customers exceptional food with impeccable service. We take pride in everything we do.</p>
+            </div>
+            <div class="menu-bottom">
+                <div class="menu-item">
+                    <div class="icon">
+                        <img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Pollo Horneado</h2>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>1/2 Polo</h4></li>
+                        <li class="prices__item"><h4>190</h4></li>
+                    </ul>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>1 Polo</h4></li>
+                        <li class="prices__item"><h4>375</h4></li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <div class="icon">
+                        <img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Pechuritas</h2>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>4</h4></li>
+                        <li class="prices__item"><h4>Piezas</h4></li>
+                        <li class="prices__item"><h4>180</h4></li>
+                    </ul>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>7</h4></li>
+                        <li class="prices__item"><h4>Piezas</h4></li>
+                        <li class="prices__item"><h4>280</h4></li>
+                    </ul>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>10</h4></li>
+                        <li class="prices__item"><h4>Piezas</h4></li>
+                        <li class="prices__item"><h4>380</h4></li>
+                    </ul>
+                    <ul class="prices__list">
+                        <li class="prices__item"><h4>14</h4></li>
+                        <li class="prices__item"><h4>Piezas</h4></li>
+                        <li class="prices__item"><h4>495</h4></li>
+                    </ul>
+                </div>
+                <div class="menu-item">
+                    <div class="icon">
+                        <img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Atilas a la BBQ/Picantes</h2>
+                    <div class="prices">
+                        <ul class="prices__list">
+                            <li class="prices__item"><h4>4</h4></li>
+                            <li class="prices__item"><h4>Piezas</h4></li>
+                            <li class="prices__item"><h4>200</h4></li>
+                        </ul>
+                        <ul class="prices__list">
+                            <li class="prices__item"><h4>7</h4></li>
+                            <li class="prices__item"><h4>Piezas</h4></li>
+                            <li class="prices__item"><h4>300</h4></li>
+                        </ul>
+                        <ul class="prices__list">
+                            <li class="prices__item"><h4>10</h4></li>
+                            <li class="prices__item"><h4>Piezas</h4></li>
+                            <li class="prices__item"><h4>400</h4></li>
+                        </ul>
+                        <ul class="prices__list">
+                            <li class="prices__item"><h4>14</h4></li>
+                            <li class="prices__item"><h4>Piezas</h4></li>
+                            <li class="prices__item"><h4>515</h4></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Sectionunun sonu -->
+    <!-- Locations Section -->
+    <section id="locations">
+        <div class="locations container">
+            <div class="location-header">
+                <h1 class="section-title">Our <span>Locations</span></h1>
+            </div>
+            <div class="all-locations">
+                <div class="location-item">
+                    <div class="location-info">
+                        <h1><span>Baku</span>, Azərbaycan</h1>
+                        <h2>Los Pollos Hermanos</h2>
+                        <p>8 Əliyar Əliyev, Bakı, Azərbaycan</p>
+                    </div>
+                    <div class="location-image">
+                        <img src="./img/loc1az.jpeg" alt="img">
+                    </div>
+                </div>
+                <div class="location-item">
+                    <div class="location-info">
+                        <h1><span>Malaga</span>, Spain</h1>
+                        <h2>Los pollos hermanos Despacho de comida</h2>
+                        <p>Av. Pío Baroja, 22, 29017 Málaga, Spain</p>
+                    </div>
+                    <div class="location-image">
+                        <img src="./img/breaking-bad.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="location-item">
+                    <div class="location-info">
+                        <h1><span>Montreuil</span>, France</h1>
+                        <h2>The Chicken Brothers</h2>
+                        <p>3 Rue Arsène Chéreau, 93100 Montreuil, France</p>
+                    </div>
+                    <div class="location-image">
+                        <img src="./img/low.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!-- Locations Sectionunun sonu -->
+    <!-- About Sectionu -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/abtimg.webp" alt="img">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About <span>Me</span></h1>
+                <h2>The founder and CEO of chainf of restaurants "Los Pollos Hermanos"</h2>
+                <p>
+                    Los Pollos Hermanos was founded by Chilean nationals and business partners Gus Fring and Max Arciniega in Mexico. An apocryphal story as told in a fictional television commercial suggests that it was inspired by recipes cooked by Gus' uncles. Eventually Gus emigrated to the United States and opened branches primarily in New Mexico, and the chain grew to have 14 locations throughout the American Southwest. Los Pollos Hermanos trucks were used to smuggle drugs manufactured by the show's fictional drug cartel across the Mexico–United States border. A large chicken farm for Los Pollos Hermanos at the outskirts of Albuquerque served as a front where the incoming drugs were processed and shipped to the various stores and other destinations. Fring kept the restaurants themselves clean of any business related to drugs. 
+                </p>
+                <a href="#" class="cta">Download Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Sectionunun Sonu -->
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="contact container"><h1 class="section-title">Contact <span>Us</span></h1>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>(505) 146-0195</h2>
+                        <h2>(505) 146-0175</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png"/></div>
+                    <div class="contact-info">
+                        <h1>Email</h1>
+                        <h2>https://www.facebook.com/BetterCallSaulAMC/</h2>
+                        <h2>https://twitter.com/BetterCallSaul</h2>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <a class="goto-top"> <img src="/img/up.svg" alt="" srcset=""></a>  
+    </section>
+    <!-- Contact section sonu -->
+    <!-- Footer section -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>L</span>os <span>P</span>ollos
+                <span>H</span>ermanos</h1>
+                <h2>All prepared with loving care! And always delivered with a friendly smile.</h2>
+                <div class="social-icon">
+                    <div class="social-item"><a href="https://www.facebook.com/BetterCallSaulAMC/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png"></a></div>
+                    <div class="social-item"><a href="https://www.instagram.com/bettercallsaulamc/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"></a></div>
+                    <div class="social-item"><a href="https://twitter.com/BetterCallSaul"target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter-circled.png"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p>Copyright © 2002 Orik. All rights reserved</p>
+  </div>
+    </section>
+    <!-- Footer sectionu sonu -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
